@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <base>
+    <movieclip id="bg" linkage="background" ratio="ratio_out"/>
+	<movieclip id="footer" linkage="inferior" bottom="0"/>
+  </base>
+  <page id="Inicio" type="Inicio" urlfriendly="inicio">
+    <title><![CDATA[Inicio]]></title>
+    <titleBrowser><![CDATA[inicio]]></titleBrowser>
+  </page>
+  <page id="Concurso" type="Concurso" urlfriendly="concurso">
+    <title><![CDATA[Concurso]]></title>
+    <titleBrowser><![CDATA[concurso]]></titleBrowser>
+  </page>
+  <page id="Desenho" type="Desenho" urlfriendly="desenho">
+    <title><![CDATA[Desenho]]></title>
+    <titleBrowser><![CDATA[desenho]]></titleBrowser>
+  </page>
+  <page id="Jogos" type="Jogos" urlfriendly="jogos">
+    <title><![CDATA[Jogos]]></title>
+    <titleBrowser><![CDATA[jogos]]></titleBrowser>
+  </page>
+</site>

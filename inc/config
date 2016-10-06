@@ -1,0 +1,15 @@
+﻿{
+	"concurso":{
+		"urlParticipante":"http://site.casasbahia.com.br/dia-das-criancas/obter-participante",
+		"urlParticipe":"http://site.casasbahia.com.br/dia-das-criancas/sortear-participantes",
+		"urlCaptcha":"http://site.casasbahia.com.br/dia-das-criancas/captcha.jpg",
+		"urlProdutos":"inc/produtos.json",
+		"urlGaleria":"http://site.casasbahia.com.br/dia-das-criancas/listagem-participantes",
+		"urlRanking":"http://site.casasbahia.com.br/dia-das-criancas/ranking",
+		"urlVoto":"http://site.casasbahia.com.br/dia-das-criancas/votar",
+		"urlCadastro":"http://site.casasbahia.com.br/dia-das-criancas/cadastrarParticipante",
+		"urlUpload":"http://site.casasbahia.com.br/dia-das-criancas/upload-fotos",
+		"urlRegulamento":"inc/regulamento.txt",
+		"urlSite":"http://site.casasbahia.com.br/dia-das-criancas/"
+	}
+}

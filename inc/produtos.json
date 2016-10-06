@@ -1,0 +1,86 @@
+{
+    "status": "1",
+    "mensagem": "apenas descrevendo a falha ou sucesso.",
+    "produtos": [
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=2440059&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/1.png",
+            "title": "Bicicleta aro 12 Track & Bikes Arco-Íris" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=2440067&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/2.png",
+            "title": "Bicicleta aro 12 Track & Bikes Arco-Íris" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=700401&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/3.png",
+            "title": "Bicicleta aro 20 Caloi Luli" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=7181000&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/4.png",
+            "title": "Bicicleta Aro 20 Houston Trup Titanio" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=461830&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/6.png",
+            "title": "Carro Homeplay Super Kart Racer 648" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=8360111&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/7.png",
+            "title": "Piscina 3.000 litros Capri" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=8360049&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/8.png",
+            "title": "Piscina 1.000 litros Capri Guarujá" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=4350014&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/9.png",
+            "title": "Laptop infantil Xuxa Candide 6003 - 24 atividades" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=4350723&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/10.png",
+            "title": "Laptop 28 atividades Candide Ben 10 5130" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=4350987&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/11.png",
+            "title": "Helicóptero Candide Lightning 1366 – de controle remoto" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=4765923&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/12.png",
+            "title": "Game God of War®: Collection - Playstation 3" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=4765907&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/13.png",
+            "title": "Game LittleBigPlanet™ - Playstation 3" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=2301440&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/15.png",
+            "title": "Maleta portátil com 2 carrinhos Conthey Racing Box 28200" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=3150356&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/17.png",
+            "title": "Telefone celular Sony Ericsson W395 Hello Kitty" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=521698&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/18.png",
+            "title": "Netbook Positivo Mobo Black 3020" 
+        },
+        {
+            "url": "http://www.casasbahia.com.br/detalharItemVenda.do?codMcr=5764599&tipMercConj=M&s_pfm=especie",
+            "image": "inc/produtos/19.png",
+            "title": "NETBOOK SAMSUNG ATOM N280 1,66G NC10-JK01BR W7S" 
+        }
+    ]
+}

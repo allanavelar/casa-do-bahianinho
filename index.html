@@ -1,0 +1,123 @@
+﻿<html>
+<head>
+	<title>Dias das Crianças: A Fantástica Casa do Bahianinho - Casas Bahia</title>
+	<meta name="revisit" content="5 days">
+	<meta name="robots" content="all">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	
+	<script type="text/javascript" src="js/swfobject.js"></script>	
+	<script type="text/javascript" src="js/swfaddress.js"></script>
+	<script type="text/javascript" src="js/swfforcesize.js"></script>
+	<style type="text/css">
+		
+		/* hide from ie on mac \*/
+		html {
+			height: 100%;
+			overflow: auto;
+		}
+		
+		#flashcontent {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 100%;
+			width:  100%;
+		}
+		/* end hide */
+
+		body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: #FFFFFF;
+		}
+
+	</style>
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	
+	
+	<script type="text/javascript">
+	function SWFDelegate(url,width,height,caption) {
+		$('#modalGames').removeClass('hide');
+		$('#modalGames').addClass('show');
+		
+		var modal = new SWFObject(url, 'game', width, height, '9', '#FFFFFF');
+		
+		modal.useExpressInstall('include/expressinstall.swf');
+		modal.addParam('menu', 'false');
+		modal.addParam('scale', 'noscale');
+		modal.addParam('salign', 'mt');
+		modal.addParam('wmode', 'transparent');
+
+		modal.write('game');		
+	}
+	
+	function closeModal() {
+			$('#modalGames').addClass('hide');
+			$('#modalGames').removeClass('show');
+	}
+
+	</script>
+</head>
+<body>
+	<div id="flashcontent"><div align="center"></div></div>
+	<script type="text/javascript">
+	// <![CDATA[
+		var so = new SWFObject('Preloader.swf', 'indexload', '100%', '100%', '9', '#FFFFFF');
+		
+		var codigo = gup("codigo");
+		if(codigo != null) so.addVariable("codigo", codigo);
+		
+		so.useExpressInstall('include/expressinstall.swf');
+		so.addParam('menu', 'false');
+		so.addParam('scale', 'noscale');
+		so.addParam('salign', 'mt');
+		
+		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+		if(is_chrome){
+        	so.addParam('wmode', 'window');
+		}else{
+			so.addParam('wmode', 'transparent');
+		} 
+		
+		function updateSwfSize(w,h) {
+			var forcesize = new SWFForceSize( so,w,h );
+		}
+
+		function updateBrowserScroll(y) {
+			window.scrollTo(0,y);
+		}
+
+		if( so.write('flashcontent') ) {
+			var forcesize = new SWFForceSize( so, 1060, 900);
+		}
+		
+		function gup( name )
+		{
+		  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+		  var regexS = "[\\?&]"+name+"=([^&#]*)";
+		  var regex = new RegExp( regexS );
+		  var results = regex.exec( window.location.href );
+		  if( results == null )
+		    return null;
+		  else
+		    return results[1];
+		}
+	// ]]>
+	</script>
+	
+	
+	<div class="hide" id="modalGames">
+		<div class="modalBackground"></div>
+	    <div class="modalPopupGame">
+	    	<a class="btnCancel" href="javascript:closeModal();">X</a>
+	    	
+	    	<div id="game"></div>	    			    	
+	    </div>
+	</div>
+</body>
+</html>
